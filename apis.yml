@@ -1,8 +1,19 @@
 aid: libra-robotics
 name: Libra Robotics
-description: Libra Robotics is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Libra Robotics is a Silicon Valley robotics startup building autonomous robots
+  that install solar panels in the field, targeting projects from 1 MW upward
+  across utility-scale, commercial and industrial, community solar, and
+  agrivoltaic applications. The company's field system — marketed as Libra 001 —
+  combines purpose-built end-effectors, suction-based panel handling and
+  transport, vision and positioning systems that align each module with the
+  tracker structure, and fastener workflows compatible with multiple commercial
+  racking systems, operating across day and night shifts. Libra Robotics was
+  founded by Yaojing Huang and Jermaine Zhao, is part of the Y Combinator Summer
+  2026 batch, and operates out of Newark, California. As of this profile the
+  company publishes no public API, developer portal, SDKs, or machine-readable
+  specifications; its web presence is a six-page marketing site covering
+  solutions, technology, safety, company, and contact.
 url: https://raw.githubusercontent.com/api-evangelist/libra-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +21,58 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://librabots.com/_astro/homepage-hero-poster.CFLqcu0K.webp
 tags:
 - Company
+- Robotics
+- Automation
+- Solar
+- Energy
+- Renewable Energy
+- Construction
+- Sustainability
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://librabots.com/
+- type: About
+  url: https://librabots.com/company/
+- type: Support
+  url: https://librabots.com/contact/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/librabots
+- type: Youtube
+  url: https://www.youtube.com/@LibraRobotics
+- type: Crunchbase
+  url: https://www.ycombinator.com/companies/libra-robotics
+- type: DomainSecurity
+  url: security/libra-robotics-domain-security.yml
+- type: WellKnown
+  url: well-known/libra-robotics-well-known.yml
+- type: LLMsTxt
+  url: llms/libra-robotics-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
