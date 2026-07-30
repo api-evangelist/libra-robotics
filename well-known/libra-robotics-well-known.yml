@@ -1,0 +1,44 @@
+generated: '2026-07-19'
+method: probed
+source: live HTTP probes of Libra Robotics hosts
+host: https://librabots.com
+note: >-
+  No .well-known discovery documents are published, and no /llms.txt is served.
+  Libra Robotics publishes no API host — api., docs., developer., and app.
+  subdomains of librabots.com do not resolve — so the only probeable host is the
+  marketing site itself. The generated llms/libra-robotics-llms.txt is an API
+  Evangelist artifact, not a provider-published document.
+probes:
+- host: librabots.com
+  path: /.well-known/security.txt
+  status: 404
+  file: null
+- host: librabots.com
+  path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- host: librabots.com
+  path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- host: librabots.com
+  path: /.well-known/api-catalog
+  status: 404
+  file: null
+- host: librabots.com
+  path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+- host: librabots.com
+  path: /llms.txt
+  status: 404
+  file: null
+- host: librabots.com
+  path: /robots.txt
+  status: 200
+  file: null
+unresolved_hosts:
+- api.librabots.com
+- docs.librabots.com
+- developer.librabots.com
+- app.librabots.com

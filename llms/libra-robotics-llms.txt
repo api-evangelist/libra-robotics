@@ -1,0 +1,38 @@
+# Libra Robotics
+
+> Libra Robotics is a Silicon Valley robotics startup building autonomous robots that install
+> solar panels in the field, for projects from 1 MW upward across utility-scale, commercial and
+> industrial, community solar, and agrivoltaic applications. Founded by Yaojing Huang and
+> Jermaine Zhao; Y Combinator Summer 2026 batch; based in Newark, California.
+
+<!--
+generated: 2026-07-19
+method: generated
+source: apis.yml + https://librabots.com/ (no provider-published /llms.txt; probed 404)
+-->
+
+Libra Robotics publishes no public API, developer portal, SDK, CLI, or machine-readable API
+specification as of 2026-07-19. There is no api./docs./developer. subdomain, no OpenAPI or
+AsyncAPI document, no package-registry presence, and no /.well-known discovery surface. This
+file describes the company for agents and should not be read as documentation of an API.
+
+## Company
+
+- [Libra Robotics](https://librabots.com/): Autonomous solar installation robots, 1 MW and up.
+- [Company](https://librabots.com/company/): About the company and team.
+- [Technology](https://librabots.com/technology/): Panel handling, alignment, fastening, and mobile platforms.
+- [Solar Installation](https://librabots.com/solutions/solar-installation/): The solar installation solution.
+- [Safety](https://librabots.com/safety/): Field safety approach.
+- [Contact](https://librabots.com/contact/): Contact and demo request — contact@librabots.com.
+
+## Elsewhere
+
+- [Y Combinator profile](https://www.ycombinator.com/companies/libra-robotics): S2026 batch listing.
+- [LinkedIn](https://www.linkedin.com/company/librabots)
+- [YouTube](https://www.youtube.com/@LibraRobotics): Field demos of Libra 001.
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/libra-robotics/refs/heads/main/apis.yml): APIs.json profile for this company.
+- [well-known/libra-robotics-well-known.yml](https://raw.githubusercontent.com/api-evangelist/libra-robotics/refs/heads/main/well-known/libra-robotics-well-known.yml): Probed discovery surface (all 404).
+- [security/libra-robotics-domain-security.yml](https://raw.githubusercontent.com/api-evangelist/libra-robotics/refs/heads/main/security/libra-robotics-domain-security.yml): Probed TLS/HSTS/DNS posture.
